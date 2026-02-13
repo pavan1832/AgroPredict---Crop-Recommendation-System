@@ -1,10 +1,4 @@
 from app.config import weather_api_key
-# Importing essential libraries and modules
-from dotenv import load_dotenv
-from pathlib import Path
-
-load_dotenv(Path(__file__).resolve().parent.parent / ".env")
-
 
 from flask import Flask, render_template, request, Markup
 import os
@@ -13,13 +7,13 @@ import pandas as pd
 from app.utils.disease import disease_dic
 from app.utils.fertilizer import fertilizer_dic
 import requests
-import config
 import pickle
 import io
 import torch
 from torchvision import transforms
 from PIL import Image
 from app.utils.model import ResNet9
+
 # ==============================================================================================
 
 # -------------------------LOADING THE TRAINED MODELS -----------------------------------------------
