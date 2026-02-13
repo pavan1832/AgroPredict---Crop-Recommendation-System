@@ -1,3 +1,2 @@
-import os
-
-weather_api_key = os.getenv("WEATHER_API_KEY")
+from app import config
+from app.config import weather_api_key
