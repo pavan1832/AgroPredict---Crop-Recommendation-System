@@ -19,7 +19,6 @@ This is a POC(Proof of concept) kind-of project. The data used here comes up wit
     - For the last application, that is the plant disease prediction application, the user can input an image of a diseased plant leaf, and the application will predict what disease it is and will also give a little background about the disease and suggestions to cure it.
 
 
-- [Disease Detection](https://www.kaggle.com/atharvaingle/plant-disease-classification-resnet-99-2)
 
 # Built with 🛠️
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
