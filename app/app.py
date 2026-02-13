@@ -1,19 +1,24 @@
-from app.config import weather_api_key
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+import os   # ✅ MUST be first
 
+from dotenv import load_dotenv
+from pathlib import Path
 from flask import Flask, render_template, request, Markup
-import os
 import numpy as np
 import pandas as pd
-from app.utils.disease import disease_dic
-from app.utils.fertilizer import fertilizer_dic
 import requests
 import pickle
 import io
 import torch
 from torchvision import transforms
 from PIL import Image
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+from app.config import weather_api_key
+from app.utils.disease import disease_dic
+from app.utils.fertilizer import fertilizer_dic
 from app.utils.model import ResNet9
+
 
 # ==============================================================================================
 
