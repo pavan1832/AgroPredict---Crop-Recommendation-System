@@ -2,7 +2,8 @@ import os   # ✅ MUST be first
 
 from dotenv import load_dotenv
 from pathlib import Path
-from flask import Flask, render_template, request, Markup
+from flask import Flask, render_template, request
+from markupsafe import Markup
 import numpy as np
 import pandas as pd
 import requests
