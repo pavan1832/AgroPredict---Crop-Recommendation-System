@@ -1,9 +1,9 @@
+from app.config import weather_api_key
 # Importing essential libraries and modules
 from dotenv import load_dotenv
 from pathlib import Path
 
 load_dotenv(Path(__file__).resolve().parent.parent / ".env")
-from app.config import weather_api_key
 
 
 from flask import Flask, render_template, request, Markup
