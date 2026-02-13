@@ -7,3 +7,5 @@ __pycache__/
 New Plant Diseases Dataset(Augmented)/
 Docs/
 .DS_Store
+.env
+config.py
