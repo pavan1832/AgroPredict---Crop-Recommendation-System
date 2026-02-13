@@ -18,14 +18,7 @@ This is a POC(Proof of concept) kind-of project. The data used here comes up wit
     
     - For the last application, that is the plant disease prediction application, the user can input an image of a diseased plant leaf, and the application will predict what disease it is and will also give a little background about the disease and suggestions to cure it.
 
-## DATA SOURCE 📊
-- [Crop recommendation dataset ](https://www.kaggle.com/atharvaingle/crop-recommendation-dataset) (custom built dataset)
-- [Fertilizer suggestion dataset](https://github.com/Gladiator07/Harvestify/blob/master/Data-processed/fertilizer.csv) (custom built dataset)
-- [Disease detection dataset](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset)
 
-## Notebooks 📓
-##### I have also published the corresponding code on Kaggle Notebooks.
-- [Crop Recommendation](https://www.kaggle.com/atharvaingle/what-crop-to-grow)
 - [Disease Detection](https://www.kaggle.com/atharvaingle/plant-disease-classification-resnet-99-2)
 
 # Built with 🛠️
@@ -99,18 +92,6 @@ Note that, for now it only supports following crops
   python app.py
   ```
 - Open the localhost url provided after running `app.py` and now you can use the project locally in your web browser.
-## DEMO
 
-- ### Crop recommendation system
-
-![demo](https://media.giphy.com/media/90JbjdAa5nDq3TJh5u/giphy.gif)
-
-- ### Fertilizer suggestion system
-
-![demo](https://media.giphy.com/media/FLftUXMFo8N2bBjAXq/giphy.gif)
-
-
-- ### Disease Detection system
-![demo](https://media.giphy.com/media/NnMwEp2tGZdfnJbyjr/giphy.gif)
 
 
